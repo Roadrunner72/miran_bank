@@ -96,7 +96,7 @@ public class Buchung
     {
         return barkonto += betrag;
     }
-    public double barkontoAufNullSetzen(Double betrag)
+    public double barkontoAufNullSetzen(Double betrag) // TODO
     {
         return barkonto =  barkonto - betrag;
     }
